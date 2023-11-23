@@ -1,0 +1,53 @@
+.root{
+    font-family: monospace;
+    font-size: 18px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main *{  /* accede a lo que hay dentro del */
+    display: flex;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.row{
+    flex-direction: row;
+}
+.center{
+    justify-content: center;
+    align-items: center;
+}
+main{
+    box-shadow: 0px 40px 0px red ;
+    border: 4px solid darkslateblue;
+    border-radius: 2% ;
+    background: blue;
+    padding: 1em;
+    
+}
+
+.pad{
+    width:100px ;
+    height: 100px;
+    border: 1px solid black;
+    margin: 0.5em;
+    border-radius: 4%;
+    background: lightgrey;
+    box-shadow: 0px 5px 0px black;
+    user-select: none;
+    transition: 100ms;
+}
+
+.pad:active{
+    transition: 100ms;
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px black;
+}
