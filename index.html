@@ -9,30 +9,33 @@
 <body>
     <main>
         <section class="row">
-            <div class="pad center">1</div>
-            <div class="pad center">2</div>
-            <div class="pad center">3</div>
-            <div class="pad center">4</div>
+            <div class="pad center" data-audio="/samples/kick.wav" data-key ="1">1</div>
+            <div class="pad center" data-audio="/samples/rimshot.wav"data-key ="2">2</div>
+            <div class="pad center" data-audio="/samples/rimshot2.wav" data-key ="3">3</div>
+            <div class="pad center" data-audio="/samples/snare.wav" data-key ="4">4</div>
         </section>
         <section class="row">
-            <div class="pad center">Q</div>
-            <div class="pad center">W</div>
-            <div class="pad center">E</div>
-            <div class="pad center">R</div>
+            <div class="pad center" data-key ="q" data-audio="/samples/hat0.wav">Q</div>
+            <div class="pad center" data-key ="w" data-audio="/samples/hat1.wav">W</div>
+            <div class="pad center" data-key ="e" data-audio="/samples/hat2.wav">E</div>
+            <div class="pad center" data-key ="r" data-audio="/samples/hat3.wav">R</div>
         </section>
         <section class="row">
-            <div class="pad center">A</div>
-            <div class="pad center">S</div>
-            <div class="pad center">D</div>
-            <div class="pad center">F</div>
+            <div class="pad center" data-key ="a" data-audio="/samples/kick.wav">A</div>
+            <div class="pad center" data-key ="s" data-audio="/samples/hat0.wav">S</div>
+            <div class="pad center" data-key ="d" data-audio="/samples/hat1.wav">D</div>
+            <div class="pad center" data-key ="f" data-audio="/samples/hat3.wav">F</div>
         </section>
         <section class="row">
-            <div class="pad center">Z</div>
-            <div class="pad center">X</div>
-            <div class="pad center">C</div>
-            <div class="pad center">Y</div>
+            <div class="pad center" data-key ="z" data-audio="/samples/snare.wav">Z</div>
+            <div class="pad center" data-key ="x" data-audio="/samples/rimshot.wav">X</div>
+            <div class="pad center" data-key ="c" data-audio="/samples/rimshot2.wav">C</div>
+            <div class="pad center" data-key ="y" data-audio="/samples/hat2.wav">Y</div>
         </section>
     </main>
+    <aside>
+        <input type="file" id ="sample_file">
+    </aside>
 
 
     <script src="script.js"></script>
